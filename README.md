@@ -5,11 +5,18 @@
 1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
 		
 	* let
+		* The `let` syntax is similar to `var` from ES5, however, the scope is bound to the block which it is defined within.
 	* const
+		* `const` is used to declare variables as well, but does not allow changing the value of the variable after it's first definition.
 	* ES6 Classes
+		* ES6 classes are a simpler way of writing constructor functions.
 	* import/export
+		* `import` brings assets into the current file/scope. For example, it may be used on the React framework, css files, image files, even other JavaScript classes.
+		* The `export` command allows exporting of a class so that the component can be used by other parts of the app.
 	* JSX
+		* JSX is how HTML is referenced within React. It has special syntax to call upon JavaScript variables/syntax.
 	* this.props
+		* `this.props` grabs any HTML attributes attached to the object currently being worked with.
 
 
 2. Fork and clone this repo.  When you need to commit use the following commands.
